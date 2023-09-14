@@ -2,7 +2,7 @@
 
 This study aimed to enhance the accuracy and efficiency of identifying negative relations, specifically focusing on inhibitor relations within biomedical texts. It developed a novel text mining system using state-of-the-art K-RET, which allows the integration of biomedical ontologies. Two datasets were utilized, DrugProt and ChemProt, featuring inhibitor relations and their opposite, activator relations. The K-RET system was adapted to identify negative relations more effectively, achieving high accuracy, precision, recall, and F1 scores for the test set.
 
-This repository contains code and instructions to obtain the Inhibitor Model, which is designed for identifying and classifying sentences related to inhibitors and activators in biomedical text. This README provides an overview of the repository structure and how to use the provided scripts.
+This repository contains code and instructions to obtain the K-RET-NEG, which is designed for identifying and classifying sentences related to inhibitors and activators in biomedical text. This README provides an overview of the repository structure and how to use the provided scripts.
 
 ## Table of Contents
 1. [Getting the Data](#getting-the-data)
@@ -10,7 +10,7 @@ This repository contains code and instructions to obtain the Inhibitor Model, wh
 3. [Final Architecture](#final-architecture)
 4. [Data Processing](#data-processing)
 5. [Train, dev, test set](obtain-set)
-6. [Training the Model](#training-the-model)
+6. [Training the Model - K-RET-NEG](#training-the-model)
 7. [Evaluating Model Predictions](#evaluating-model-predictions)
 
 ## Getting the Data <a name="getting-the-data"></a>
@@ -66,7 +66,7 @@ The initial configuration should be like this:
 
 ## Data Processing <a name="data-processing"></a>
 
-To get the necessary data for the Inhibitor Model, follow these steps:
+To get the necessary data to obtain the K-RET-NEG, follow these steps:
 
 1. Navigate to the `data` directory: `cd data`
 
@@ -95,7 +95,7 @@ To get the necessary data for the Inhibitor Model, follow these steps:
 
 ## Training the Model <a name="training-the-model"></a>
 
-To train and evaluate the Inhibitor Model, use the scripts in the `K-RET` directory:
+To train and evaluate the K-RET-NEG, use the scripts in the `K-RET` directory:
 
 1. **To replicate results and check different weights automatically:**
 
