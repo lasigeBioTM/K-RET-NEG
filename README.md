@@ -1,6 +1,6 @@
 # K-RET-NEG
 
-This study aimed to enhance the accuracy and efficiency of identifying negative relations, specifically focusing on inhibitor relations within biomedical texts. It developed a novel text mining system using state-of-the-art K-RET, which allows the integration of biomedical ontologies. Two datasets were utilized, featuring inhibitor relations and their opposite, activator relations. The K-RET system was adapted to identify negative relations more effectively, achieving high accuracy, precision, recall, and F1 scores for the test set.
+This study aimed to enhance the accuracy and efficiency of identifying negative relations, specifically focusing on inhibitor relations within biomedical texts. It developed a novel text mining system using state-of-the-art K-RET, which allows the integration of biomedical ontologies. Two datasets were utilized, DrugProt and ChemProt, featuring inhibitor relations and their opposite, activator relations. The K-RET system was adapted to identify negative relations more effectively, achieving high accuracy, precision, recall, and F1 scores for the test set.
 
 This repository contains code and instructions to obtain the Inhibitor Model, which is designed for identifying and classifying sentences related to inhibitors and activators in biomedical text. This README provides an overview of the repository structure and how to use the provided scripts.
 
@@ -15,7 +15,7 @@ This repository contains code and instructions to obtain the Inhibitor Model, wh
 
 ## Getting the Data <a name="getting-the-data"></a>
 
-Inside `data` is possible to find the steps to obtain the data and the correct architecture necessary: [data Folder](https://github.com/PedroSilvest/try2/tree/main/data)
+Inside `data` is possible to find the steps to obtain the data and the correct architecture necessary: [data Folder](https://github.com/lasigeBioTM/K-RET-NEG/tree/main/data)
 
 ## Model Preparation (K-RET) <a name="getting-K-RET"></a>
 
@@ -54,14 +54,14 @@ The initial configuration should be like this:
         - training/
     - src/
 - K-RET/
-    - [auxiliar/](https://github.com/PedroSilvest/try2/tree/main/K-RET/auxiliar) replace original with provided here.
+    - [auxiliar/](https://github.com/lasigeBioTM/K-RET-NEG/tree/main/K-RET/auxiliar) replace original with provided here.
     - brain/
     - datasets/
     - models/
     - outputs/
     - uer/
-    - [src/](https://github.com/PedroSilvest/try2/tree/main/K-RET/src) add this folder to K-RET
-    - [run_classification_inhibitor.py](https://github.com/PedroSilvest/try2/blob/main/K-RET/run_classification_inhibitor.py) add this to K-RET
+    - [src/](https://github.com/lasigeBioTM/K-RET-NEG/tree/main/K-RET/src) add this folder to K-RET
+    - [run_classification_inhibitor.py](https://github.com/lasigeBioTM/K-RET-NEG/blob/main/K-RET/run_classification_inhibitor.py) add this to K-RET
     - other files present in K-RET
 
 ## Data Processing <a name="data-processing"></a>
